@@ -1,0 +1,68 @@
+.button {
+    background-color: $color-red;
+    border: 0;
+    border-radius: $border-radius;
+    color: $color-white;
+    display: inline-flex;
+    font-size: 19px;
+    font-weight: $font-weight-bold;
+    padding: .75em 1.5em;
+    position: relative;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        cursor: pointer;
+    }
+
+    &--underline {
+        text-decoration: underline;
+    }
+
+    &--small {
+        border-radius: $border-radius-small;
+        font-size: 13px;
+        padding: .5em 1em;
+    }
+
+    &--medium {
+        font-size: 17px;
+        padding: .5em 1em;
+    }
+
+    &--full-width {
+        width: 100%;
+    }
+
+    &--link {
+        background-color: transparent;
+        border: 0;
+        color: $color-grey;
+        font-size: 13px;
+        padding: 0;
+    }
+
+    .icon {
+        color: $color-white;
+    }
+
+    &:disabled,
+    &--disabled {
+        background-color: $color-grey;
+
+        &:hover,
+        &:focus {
+            cursor: default;
+        }
+    }
+}
+
+p {
+
+    .button {
+
+        &--link {
+            color: $color-blue;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.debug {
+    background-color: rgba($color-red, .1);
+    border: 1px dashed lighten($color-red, 30%);
+    color: $color-black;
+    margin-top: 1em;
+    padding: 1em;
+    position: relative;
+    text-align: center;
+    z-index: 98;
+
+    .hdg {
+        margin-top: 1.5em;
+    }
+
+    &__info {
+
+        &--text {
+            color: $color-grey;
+            margin: 1em 0;
+        }
+    
+        &--error {
+            color: $color-red;
+            margin: 1em 0;
+        }
+    
+        &--response-debug {
+            color: $color-blue;
+            margin: 1em 0;
+        }
+    }
+}

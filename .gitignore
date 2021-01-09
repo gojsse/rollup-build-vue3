@@ -1,0 +1,19 @@
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Ignored theme files
+*.sass-cache*
+*.log
+
+# Node Package Manager
+node_modules
+yarn-error.log
+
+# Mac
+*.DS_Store
+thumbs.db
+
+# Editor
+.vscode

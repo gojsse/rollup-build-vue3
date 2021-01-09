@@ -1,0 +1,24 @@
+.modal {
+    @extend %flex-column;
+    background-color: $color-grey-lightest;
+    color: $color-black;
+    height: 100%;
+    left: 0;
+    padding-top: 15%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+    &__close {
+        @extend %flex-row;
+        justify-content: center;
+        margin-bottom: 2em;
+        width: 100%;
+    }
+
+    &__body {
+        max-width: 620px;
+        margin: 0 2em;
+    }
+}

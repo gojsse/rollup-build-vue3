@@ -1,0 +1,15 @@
+// Image, Icon Style
+img,
+.icon {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.icon {
+    display: inline-block;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}

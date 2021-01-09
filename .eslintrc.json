@@ -1,0 +1,19 @@
+{
+  "env" : {
+    "browser" : true,
+    "es6" : true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "no-unused-vars": 0,
+    "no-undef": 2,
+    "vue/comment-directive": 0
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-essential"
+  ]
+}

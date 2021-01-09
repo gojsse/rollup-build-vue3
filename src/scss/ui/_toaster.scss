@@ -1,0 +1,33 @@
+.toaster {
+    @extend %flex-column;
+    background-color: $color-blue;
+    border-radius: $border-radius;
+    padding: 20px;
+    position: sticky;
+    top: 4em;
+    width: 100%;
+    z-index: 101;
+
+    &:focus,
+    &:hover {
+      cursor: pointer;
+    }
+
+    .hdg {
+      color: $color-white;
+      font-weight: normal;
+      margin: 0;
+      text-align: center;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    button {
+      color: $color-white;
+      font-weight: normal;
+      margin-top: 1em;
+      text-decoration: underline;
+    }
+}

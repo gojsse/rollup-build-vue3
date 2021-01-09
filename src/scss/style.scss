@@ -1,0 +1,26 @@
+@import 'typography/fonts';
+@import 'abstracts/variables';
+@import 'abstracts/animations';
+
+@import 'mixins/breakpoints';
+@import 'mixins/flex';
+
+.app {
+    @import 'debug';
+    @import 'base/base';
+    @import 'base/columns';
+    @import 'base/media';
+    @import 'base/typography';
+    @import 'base/responsive-visibility';
+    @import 'ui/buttons';
+    @import 'ui/loading-overlay';
+    @import 'ui/modal';
+    @import 'ui/toaster';
+
+    font-family: $font-family-primary;
+    font-weight: $font-weight-normal;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
